@@ -1,5 +1,5 @@
 # Revisiting Over-smoothing in Deep GCNs
-Here are the complete codes and datasets that I used for "Revisiting Over-smoothing in Deep GCNs"/
+Here are the complete codes and datasets that I used for "Revisiting Over-smoothing in Deep GCNs".
 They are categorized into different folders according to the experimental sections in the paper. Please contact 
  me <chaoqiy2@illinois.edu> if you have any question.
 
