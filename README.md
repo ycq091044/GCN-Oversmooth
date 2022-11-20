@@ -1,6 +1,7 @@
 # Revisiting Over-smoothing in Deep GCNs
-Here are the complete codes and datasets that I used for "Revisiting Over-smoothing in Deep GCNs".
-They are categorized into different folders according to the experimental sections in the paper. Please contact 
+Here are the complete codes and datasets that I used for "Revisiting Over-smoothing in Deep GCNs". **Refer to the two-column version in this repo for figure and section numbers.**
+
+They are categorized into different folders according to the experimental sections in the paper (**the two-column version one in the repo**, which has slightly different figure index as the arXiv version). Please contact 
  me <chaoqiy2@illinois.edu> if you have any question.
 
 ## Reproductive code folder structure
@@ -28,6 +29,7 @@ They are categorized into different folders according to the experimental sectio
         - Run ```python train.py --dataset [name of the dataset]``` and get the experimental results for 20 rounds
 
 - **performace-depth-oversmooth/ (reproductive codes for Experiment Section 5.1 Overfitting in Deep GCNs Part-I)**
+    - **ATTENTION:** The code is only for the GCN part, please remove the residual connection, non-linear activations and layer-wise parameter matrices between GCN layers to generate the SGC results. 
     - Instructions
         - Before training, please use ```mkdir cora``` or ```mkdir citeseer``` or ```mkdir pubmed``` to generate the result folders for Cora, Citeseer, Pubmed        
     	- Run ```python train.py``` and get the experimental results for 20 rounds
